@@ -23,7 +23,6 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
-    @vite(['resources/css/app.css'])
 </head>
 <body class="bg-primary">
     <div id="app">
