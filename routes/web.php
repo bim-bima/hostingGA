@@ -40,7 +40,8 @@ use App\Http\Controllers\MAsterCategoryAssetController;
 */
 Route::middleware(['guest'])->group(function(){
     Route::get('/', function () {
-        return view('/auth/login');
+        return view('/auth/register');
+        Route::resource('add_user', AdduserController::class);
         // return view('public/index');
     });
 });
